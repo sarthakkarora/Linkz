@@ -1,0 +1,32 @@
+{
+  "name": "sarthakkarora",
+  "version": "2.1.2",
+  "description": "A budding developer with a passion for web and software development.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "npm run build && next export",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "SARTHAK ARORA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarthakkarora"
+  },
+  "homepage": "https://github.com/sarthakkarora",
+  "dependencies": {
+    "next": "^13.4.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-ga": "^3.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.14",
+    "tailwindcss": "3.3.2"
+  }
+}
